@@ -1,0 +1,48 @@
+.con {
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+.con .title {
+  margin-top: 260px;
+}
+.con .title h1 {
+  font-size: 160px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #0037FF;
+}
+.con .menu ul {
+  display: flex;
+  margin-top: 30px;
+}
+.con .menu ul li {
+  margin-right: 15px;
+  padding: 20px 30px;
+  border: 1px solid #000;
+  border-radius: 100px;
+}
+.con .menu ul li a {
+  font-size: 20px;
+}
+.con .work-part {
+  margin-top: 80px;
+}
+.con .work-part ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.con .work-part ul li a .img {
+  width: 440px;
+  height: 500px;
+}
+.con .work-part ul li a .work-title {
+  margin-top: 18px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.con .work-part ul li a .tag {
+  margin-top: 10px;
+}
+.con .work-part ul li a .tag span {
+  margin-right: 15px;
+}/*# sourceMappingURL=work.css.map */

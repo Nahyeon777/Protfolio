@@ -1,0 +1,282 @@
+body {
+  overflow-x: hidden;
+}
+
+.con {
+  margin-top: 160px;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+.con h1 {
+  font-size: 160px;
+  font-weight: 500;
+  color: #0037FF;
+  font-family: "Montserrat", sans-serif;
+}
+.con p {
+  font-size: 40px;
+}
+
+.WHOAMI {
+  margin-top: 260px;
+  width: 100%;
+  background: no-repeat right/48% url("../img/whoami/BG.png");
+}
+.WHOAMI .title p span.name {
+  font-weight: 700;
+  color: #0037FF;
+}
+.WHOAMI .info {
+  margin-top: 80px;
+}
+.WHOAMI .info .list {
+  display: flex;
+}
+.WHOAMI .info .list .left ul li, .WHOAMI .info .list .right ul li {
+  margin-bottom: 50px;
+}
+.WHOAMI .info .list .left ul li .info-title, .WHOAMI .info .list .right ul li .info-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.WHOAMI .info .list .left ul li .info-title .box, .WHOAMI .info .list .right ul li .info-title .box {
+  width: 5px;
+  height: 5px;
+  background: #0037FF;
+  rotate: 45deg;
+  margin-right: 5px;
+}
+.WHOAMI .info .list .left ul li .info-title span, .WHOAMI .info .list .right ul li .info-title span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #0037FF;
+  font-size: 20px;
+}
+.WHOAMI .info .list .left ul li .info-txt, .WHOAMI .info .list .right ul li .info-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.WHOAMI .info .list .left ul li .info-txt span, .WHOAMI .info .list .right ul li .info-txt span {
+  font-size: 20px;
+  line-height: 34px;
+}
+.WHOAMI .info .list .left ul li .info-txt .date, .WHOAMI .info .list .right ul li .info-txt .date {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.WHOAMI .info .list .left ul li .info-txt .infomation, .WHOAMI .info .list .right ul li .info-txt .infomation {
+  display: flex;
+  flex-direction: column;
+}
+.WHOAMI .info .list .left ul li .detail, .WHOAMI .info .list .right ul li .detail {
+  display: flex;
+  flex-direction: row;
+}
+.WHOAMI .info .list .right {
+  margin-left: 100px;
+}
+.WHOAMI .info .list .right ul li.skill {
+  margin-top: 187px;
+}
+.WHOAMI .info .list .right ul li.skill .info-txt {
+  display: flex;
+  flex-direction: row;
+}
+.WHOAMI .info .list .right ul li.skill .info-txt img {
+  margin-right: 5px;
+}
+
+.what .title {
+  text-align: center;
+}
+.what .line {
+  margin-left: -60px;
+  margin-top: -420px;
+  z-index: -1;
+}
+.what ul {
+  display: flex;
+  justify-content: space-between;
+}
+.what ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.what ul li .info-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.what ul li .info-title .box {
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
+  rotate: 45deg;
+  background: #0037FF;
+}
+.what ul li .info-title span {
+  font-size: 20px;
+  color: #0037FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.what ul li .info-txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.what ul li .info-txt span.subtitle {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.what ul li .info-txt span {
+  font-size: 20px;
+  line-height: 28px;
+}
+.what ul li:nth-child(1) {
+  margin-top: -150px;
+}
+.what ul li:nth-child(2) {
+  margin-left: 176px;
+  margin-top: 10px;
+}
+.what ul li:nth-child(3) {
+  margin-right: 155px;
+  margin-top: -200px;
+}
+
+.this {
+  background: #0037FF;
+  margin-top: 224px;
+}
+.this .bg {
+  margin-left: -60px;
+}
+.this .bg img {
+  margin-top: -64px;
+}
+.this .title {
+  margin-right: 152px;
+}
+.this .title h1 {
+  margin-top: 96px;
+  color: #fff;
+  text-align: right;
+}
+.this .title p {
+  text-align: right;
+  color: #fff;
+}
+.this .line {
+  margin-top: -460px;
+}
+.this ul {
+  display: flex;
+  justify-content: space-between;
+}
+.this ul span {
+  color: #fff;
+}
+.this ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.this ul li .info-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.this ul li .info-title .box {
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  rotate: 45deg;
+}
+.this ul li .info-title span {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.this ul li .info-txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.this ul li .info-txt span.subtitle {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.this ul li .info-txt span {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.this ul li:nth-child(1) {
+  margin-top: -775px;
+}
+.this ul li:nth-child(2) {
+  margin-top: -570px;
+  margin-right: 54px;
+}
+.this ul li:nth-child(3) {
+  margin-top: -543px;
+  margin-right: 71px;
+}
+.this .rolling {
+  margin-top: 75px;
+  display: flex;
+  margin-bottom: 180px;
+}
+.this .rolling p {
+  animation: aniScroll 18s linear infinite;
+  font-size: 160px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  width: 100%;
+}
+@keyframes aniScroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-320%);
+  }
+}
+.this .btn {
+  text-align: center;
+  margin: 0 auto;
+  width: 370px;
+  height: 110px;
+  border: 1px solid #fff;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.this .btn a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer {
+  padding-top: 160px;
+  background: #0037FF;
+}
+.footer .left a {
+  color: #4069FF;
+}
+.footer .right span {
+  color: #4069FF;
+}/*# sourceMappingURL=WHOAMI.css.map */

@@ -1,0 +1,131 @@
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.sns {
+  position: absolute;
+  padding-top: 385px;
+}
+.sns ul {
+  padding-left: 60px;
+}
+.sns ul li {
+  transition: 0.5s;
+  display: flex;
+  margin-bottom: 25px;
+}
+.sns ul li .sns-box {
+  width: 10px;
+  height: 10px;
+  rotate: 45deg;
+  margin-top: 4px;
+  margin-right: 6px;
+  background: #C4C9DD;
+}
+.sns ul li a {
+  color: #C4C9DD;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.sns ul li:hover {
+  transition: 0.5s;
+  padding-left: 50px;
+}
+.sns ul li:hover .sns-box {
+  transition: 0.5s;
+  background: #0037FF;
+}
+.sns ul li:hover a {
+  transition: 0.5s;
+  color: #0037FF;
+  font-weight: 600;
+}
+
+.con {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-top: 118px;
+}
+.con .txt {
+  position: absolute;
+  width: 1242px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 112px;
+  padding: 0 339px;
+}
+.con .txt span {
+  font-size: 36px;
+  font-weight: 400;
+}
+.con .txt span.name {
+  font-weight: 700;
+  color: #0037ff;
+}
+.con .bg {
+  position: relative;
+}
+.con .bg .box {
+  width: 698px;
+  height: 698px;
+  background: #0037FF;
+  rotate: 45deg;
+  position: absolute;
+  margin-top: 142px;
+  margin-left: 594px;
+}
+.con .bg .port-txt {
+  rotate: -45deg;
+  position: absolute;
+  text-align: right;
+  margin-left: 1176px;
+  margin-top: 598px;
+}
+.con .bg .port-txt span {
+  color: #0037FF;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 18px;
+  line-height: 51px;
+}
+.con .bg .me {
+  width: 987px;
+  position: absolute;
+  margin-top: -94px;
+  margin-left: 449px;
+  z-index: 1;
+}
+.con .line-txt-screen {
+  position: relative;
+  bottom: 0;
+  margin-left: -95px;
+  z-index: 0;
+}
+.con .line-txt-screen img {
+  position: absolute;
+  margin-top: -201px;
+  width: 2163px;
+  top: 0;
+  -webkit-clip-path: polygon(48% 22.5%, 70.9% 78.7%, 48% 134.5%, 25.1% 78.5%);
+          clip-path: polygon(48% 22.5%, 70.9% 78.7%, 48% 134.5%, 25.1% 78.5%);
+}
+.con .line-txt {
+  position: relative;
+  bottom: 0;
+  margin-left: -95px;
+  z-index: -1;
+}
+.con .line-txt img {
+  position: absolute;
+  margin-top: -200px;
+  width: 2163px;
+  top: 0;
+  stroke-dasharray: 500;
+}
+
+.footer {
+  position: absolute;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,67 @@
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 60px;
+  box-sizing: border-box;
+  top: 0;
+}
+.gnb .logo a img {
+  height: 99px;
+}
+.gnb .menu {
+  display: flex;
+}
+.gnb .menu ul.gnb-menu {
+  display: flex;
+}
+.gnb .menu ul.gnb-menu li {
+  margin-right: 60px;
+}
+.gnb .menu ul.gnb-menu li:last-child {
+  margin-right: 49px;
+}
+.gnb .menu ul.gnb-menu li:hover a {
+  mix-blend-mode: normal;
+  color: #0037FF;
+  font-weight: 700;
+}
+.gnb .menu ul.gnb-menu a {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  mix-blend-mode: difference;
+  color: #fff;
+}
+.gnb .ham img {
+  width: 42.9px;
+  height: 38px;
+}
+.gnb .ham:hover {
+  cursor: pointer;
+}
+.gnb .ham:hover img {
+  transition: 0.3s;
+  transform: scaleY(0.6);
+}
+.gnb .ham:not(:hover) img {
+  transition: 0.2s;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 60px;
+  box-sizing: border-box;
+  bottom: 0;
+  padding-bottom: 40px;
+  color: #aaa;
+  font-weight: 300;
+}
+.footer .left a {
+  color: #aaa;
+  margin-right: 33px;
+}/*# sourceMappingURL=common.css.map */
