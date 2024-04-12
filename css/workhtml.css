@@ -57,6 +57,7 @@
 .work-img .mockup {
   margin-bottom: 160px;
 }
-.work-img .mockup img {
+.work-img .mockup img, .work-img .mockup video {
   margin-bottom: 20px;
+  width: 100%;
 }/*# sourceMappingURL=workhtml.css.map */

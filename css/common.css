@@ -1,3 +1,21 @@
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #FFC800;
+  border-radius: 50%;
+  z-index: 9999;
+  pointer-events: none;
+  transition: transform 200ms ease-out;
+  mix-blend-mode: difference;
+}
+
+.cursor.cursor_expand {
+  transform: scale(1.5);
+}
+
 .gnb {
   display: flex;
   justify-content: space-between;

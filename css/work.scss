@@ -3,6 +3,7 @@
 .con{
     padding: 0 60px;
     box-sizing: border-box;
+    margin-bottom: 160px;
     .title{
         margin-top: 260px;
         h1{
@@ -34,7 +35,15 @@
             grid-template-columns: repeat(4, 1fr);
             li{
                 a{
-                    .img{width: 440px; height: 500px;}
+                    .img{
+                        width: 440px; height: 500px; 
+                        overflow: hidden;
+                        -webkit-filter: blur(0);
+                        // -webkit-transition: .5s ease-in-out;
+                        filter: blur(0);
+                        transition-property: all;
+                        transition-duration: 1s;
+                    }
                     .work-title{
                         margin-top: 18px;
                         font-size: 30px;
@@ -45,6 +54,18 @@
                         span{
                             margin-right: 15px;
                         }
+                    }
+                }
+            }
+            li:hover{
+                a{
+                    img{
+                        // transition: 0.5s;
+                        transition-property: all;
+                        transition-duration: 1s;
+                        transform: scale(1.2);
+                        -webkit-filter: blur(3px);
+                        filter: blur(3px);
                     }
                 }
             }
