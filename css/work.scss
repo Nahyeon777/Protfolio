@@ -37,11 +37,14 @@
                 .img{
                     width: 440px; height: 500px; 
                     overflow: hidden;
-                    -webkit-filter: blur(0);
-                    // -webkit-transition: .5s ease-in-out;
-                    filter: blur(0);
-                    transition-property: all;
-                    transition-duration: 1s;
+                    img{
+                        -webkit-filter: blur(0);
+                        // -webkit-transition: .5s ease-in-out;
+                        filter: blur(0);
+                        transition-property: all;
+                        transition-duration: 1s;
+                        transform: scale(1);
+                    }
                 }
                 .work-title{
                     margin-top: 18px;

@@ -47,8 +47,11 @@ $(document).ready(function () {
 
     $(".con .item-wrap").isotope({
         // layoutMode: 'fitColumns',
-        itemSelector : ".item"
-        
+        layoutMode: "fitRows",
+        itemSelector: ".item",
+        fitRows: {
+            gutter: 7
+          }
     })
 
     $(".con .menu ul li").click(function(){
