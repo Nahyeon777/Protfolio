@@ -19,6 +19,7 @@
        ul.gnb-menu{
         display: flex;
         li{
+            margin-top: 9px;
             margin-right: 60px;
             &:last-child{
                 margin-right: 49px;
@@ -37,6 +38,9 @@
                 mix-blend-mode: difference;
                 color: #fff;
             }
+        }
+        li:nth-child(4){
+            display: none;
         }
        }
 

@@ -18,6 +18,7 @@
             display: flex;
             margin-top: 30px;
             li{
+                transition: 0.5s;
                 margin-right: 15px;
                 padding: 20px 30px;
                 border: 1px solid #000;
@@ -26,6 +27,12 @@
                     font-size: 20px;
                 }
             }
+            li.on{
+                background-color: #0037FF;
+                border: 1px solid #0037FF;
+                transition: 0.5s;
+                a{color: #fff;}
+            }
         }
     }
     .item-wrap{
@@ -33,6 +40,8 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         .item{
+            // margin-left: 6px;
+            margin-bottom: 65px;
             a{
                 .img{
                     width: 440px; height: 500px; 
@@ -53,6 +62,7 @@
                 }
                 .tag{
                     margin-top: 10px;
+                    // margin-bottom: 65px;
                     span{
                         margin-right: 15px;
                     }
@@ -73,3 +83,7 @@
         }
     }
 }
+
+.grid-item {
+    margin: 30px; /* 적절한 여백 크기를 설정하세요 */
+  }

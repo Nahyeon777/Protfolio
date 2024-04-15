@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .con {
   padding: 0 60px;
   box-sizing: border-box;
@@ -17,6 +18,7 @@
   margin-top: 30px;
 }
 .con .menu ul li {
+  transition: 0.5s;
   margin-right: 15px;
   padding: 20px 30px;
   border: 1px solid #000;
@@ -25,10 +27,21 @@
 .con .menu ul li a {
   font-size: 20px;
 }
+.con .menu ul li.on {
+  background-color: #0037FF;
+  border: 1px solid #0037FF;
+  transition: 0.5s;
+}
+.con .menu ul li.on a {
+  color: #fff;
+}
 .con .item-wrap {
   margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+.con .item-wrap .item {
+  margin-bottom: 65px;
 }
 .con .item-wrap .item a .img {
   width: 440px;
@@ -57,4 +70,8 @@
   transition-duration: 1s;
   transform: scale(1.2);
   filter: blur(3px);
+}
+
+.grid-item {
+  margin: 30px; /* 적절한 여백 크기를 설정하세요 */
 }/*# sourceMappingURL=work.css.map */

@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     // ***마우스***
     const $cursor = $('.cursor');
-    const $link = $('.menu-txt, .item');
+    const $link = $('.menu-txt, .item, .btn_set li');
     let isMouseOverLink = false; // .link 요소 위에 마우스가 있는지 추적
     let isMouseDown = false; // 마우스 버튼이 눌려 있는지 추적
     
@@ -46,12 +46,14 @@ $(document).ready(function () {
     $(".con .menu ul li").eq(0).addClass("on")
 
     $(".con .item-wrap").isotope({
-        // layoutMode: 'fitColumns',
         layoutMode: "fitRows",
         itemSelector: ".item",
         fitRows: {
             gutter: 7
           }
+        // fitColumn: {
+        //     gutter: 20
+        //   }
     })
 
     $(".con .menu ul li").click(function(){
@@ -65,5 +67,7 @@ $(document).ready(function () {
         })
         
     })
+
+    
     
 })

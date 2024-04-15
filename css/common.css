@@ -36,6 +36,7 @@
   display: flex;
 }
 .gnb .menu ul.gnb-menu li {
+  margin-top: 9px;
   margin-right: 60px;
 }
 .gnb .menu ul.gnb-menu li:last-child {
@@ -52,6 +53,9 @@
   font-weight: 400;
   mix-blend-mode: difference;
   color: #fff;
+}
+.gnb .menu li:nth-child(4) {
+  display: none;
 }
 .gnb .ham img {
   width: 42.9px;
