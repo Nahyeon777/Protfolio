@@ -25,14 +25,12 @@
 .con .menu ul li a {
   font-size: 20px;
 }
-.con .work-part {
+.con .item-wrap {
   margin-top: 80px;
-}
-.con .work-part ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.con .work-part ul li a .img {
+.con .item-wrap .item a .img {
   width: 440px;
   height: 500px;
   overflow: hidden;
@@ -40,18 +38,18 @@
   transition-property: all;
   transition-duration: 1s;
 }
-.con .work-part ul li a .work-title {
+.con .item-wrap .item a .work-title {
   margin-top: 18px;
   font-size: 30px;
   font-weight: 600;
 }
-.con .work-part ul li a .tag {
+.con .item-wrap .item a .tag {
   margin-top: 10px;
 }
-.con .work-part ul li a .tag span {
+.con .item-wrap .item a .tag span {
   margin-right: 15px;
 }
-.con .work-part ul li:hover a img {
+.con .item-wrap .item:hover a img {
   transition-property: all;
   transition-duration: 1s;
   transform: scale(1.2);

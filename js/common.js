@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
+    // ***마우스***
     const $cursor = $('.cursor');
-    const $link = $('.menu-txt');
+    const $link = $('.menu-txt, .item');
     let isMouseOverLink = false; // .link 요소 위에 마우스가 있는지 추적
     let isMouseDown = false; // 마우스 버튼이 눌려 있는지 추적
     
@@ -40,5 +41,26 @@ $(document).ready(function () {
         isMouseDown = false;
         updateCursor();
     });
+
+
+    $(".con .menu ul li").eq(0).addClass("on")
+
+    $(".con .item-wrap").isotope({
+        // layoutMode: 'fitColumns',
+        itemSelector : ".item"
+        
+    })
+
+    $(".con .menu ul li").click(function(){
+        let selector = $(this).attr("data-filter");
+        let i = $(this).index();
+        
+        $(".con .menu ul li").removeClass("on").eq(i).addClass("on")
+
+        $(".con .item-wrap").isotope({
+            filter : selector
+        })
+        
+    })
     
 })
