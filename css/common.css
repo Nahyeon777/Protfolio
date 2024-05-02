@@ -54,9 +54,6 @@
   mix-blend-mode: difference;
   color: #fff;
 }
-.gnb .menu li:nth-child(4) {
-  display: none;
-}
 .gnb .ham img {
   width: 42.9px;
   height: 38px;

@@ -1,12 +1,23 @@
 @charset "utf-8";
 
 
-// body{
-//     background: url(../img/contact/bg.jpg) no-repeat;
-//     background-position: center bottom;
-// }
+body{
+    overflow: hidden;
+    // background: url(../img/contact/bg.jpg) no-repeat;
+    // background-position: center bottom;
+}
 
 .bg{
     position: absolute;
+    left: 60px;
     bottom: 0;
+}
+
+.con{
+    margin-top: 90px;
+    position: absolute;
+}
+
+.footer{
+    position: absolute;
 }

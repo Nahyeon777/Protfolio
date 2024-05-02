@@ -11,7 +11,9 @@ body {
     ul{
         padding-left: 60px;
         li{
-            transition: 0.5s;
+            // transition: 0.5s;
+            transition-property: all;
+            transition-duration: 1s;
             display: flex;
             margin-bottom: 25px;
             .sns-box{
@@ -46,10 +48,6 @@ body {
                 font-weight: 600;
             }
         }
-        // .li:not(:hover){
-        //     transition: 0.5s;
-        //     padding-left: 0px;
-        // }
     }
 }
 

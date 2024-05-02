@@ -1,4 +1,18 @@
+body {
+  overflow: hidden;
+}
+
 .bg {
   position: absolute;
+  left: 60px;
   bottom: 0;
+}
+
+.con {
+  margin-top: 90px;
+  position: absolute;
+}
+
+.footer {
+  position: absolute;
 }/*# sourceMappingURL=contact.css.map */

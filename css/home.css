@@ -11,7 +11,8 @@ body {
   padding-left: 60px;
 }
 .sns ul li {
-  transition: 0.5s;
+  transition-property: all;
+  transition-duration: 1s;
   display: flex;
   margin-bottom: 25px;
 }
